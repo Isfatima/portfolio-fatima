@@ -162,7 +162,7 @@ function cardMediaHTML(p){
       <div class="card-media">
         <img src="${IMG_BASE}${p.images[0]}" alt="${p.title}" loading="lazy" style="object-position:${focusFor(p.images[0])}">
         <div class="card-media-meta"><span class="cross">✛</span><span>${p.images.length} FRAME${p.images.length > 1 ? "S" : ""}</span></div>
-        <div class="card-media-tag">${p.index} </div>
+        <div class="card-media-tag">${p.index}</div>
       </div>`;
   }
   const a = p.abstract;
@@ -172,7 +172,6 @@ function cardMediaHTML(p){
         ${ABSTRACT_ICONS[a.icon]}
       </div>
       <div class="card-media-meta"><span class="cross">✛</span><span>${p.index}</span></div>
-      <div class="card-media-tag">${p.index} // SIGNAL LOGGED</div>
     </div>`;
 }
 
