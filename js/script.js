@@ -54,7 +54,7 @@ const PROJECTS = [
     fullDesc: "Built a real-time tactile perception system using force sensors and ROS2/Micro-ROS. Designed touch-driven robot behaviors through an embedded signal processing pipeline. Prototyped a modular HRI device with an M5Stack Core2, haptic actuators and 3D printing.",
     tags: ["ROS2 / Micro-ROS", "M5Stack Core2", "Haptics", "3D printing"],
     images: ["hri-red.jpg", "hri-blue.jpg"],
-    signoff: "Research internship — closing the loop between touch and response."
+    signoff: "Research internship - closing the loop between touch and response."
   },
   {
     id: "imu-learning",
@@ -67,7 +67,7 @@ const PROJECTS = [
     fullDesc: "Developing self-supervised deep learning models on IMU time series using PyTorch. Designing and evaluating pretext tasks for handwriting trajectory reconstruction without labeled data. Benchmarking SSL architectures (contrastive learning, masked autoencoders) on multi-context handwriting datasets.",
     tags: ["PyTorch", "IMU time series", "Self-supervised learning", "Contrastive learning"],
     images: ["imu-handwriting-data.jpg", "imu-tablet.jpg"],
-    signoff: "Research internship — teaching a model to write without ever seeing ink."
+    signoff: "Research internship - teaching a model to write without ever seeing ink."
   },
   {
     id: "ble-battery",
@@ -80,7 +80,7 @@ const PROJECTS = [
     fullDesc: "Development of an Android application using the GATT Battery Service, with sequential management of GATT operations via a queue, and a real-time interface for IoT device monitoring.",
     tags: ["Android", "BLE", "GATT"],
     images: ["ble-app-1.jpg", "ble-app-2.jpg"],
-    signoff: "Built to make one honest number — battery level — always arrive on time."
+    signoff: "Built to make one honest number - battery level - always arrive on time."
   },
   {
     id: "ihm-tcpip",
@@ -94,7 +94,7 @@ const PROJECTS = [
     tags: ["C++", "TCP/IP", "Qt", "MFC"],
     images: [],
     abstract: { color: "#c98a2e", icon: "network" },
-    signoff: "Same socket, two interfaces — built to compare, not to pick a favorite."
+    signoff: "Same socket, two interfaces - built to compare, not to pick a favorite."
   },
   {
     id: "zumo",
